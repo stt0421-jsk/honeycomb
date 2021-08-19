@@ -6,7 +6,7 @@ The documentation is on its way, and Readme is constantly getting updated.
 
 The project is maintained/developed by stt0421-jsk, Justpumpkin, mmt-1234, and Jiseong Park.
 
-For any questions, feel free to contact: ![alt-text](gotohell.covid19@gmail.com)
+For any questions, feel free to contact: gotohell.covid19@gmail.com
 
 
 ## Introduction
