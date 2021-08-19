@@ -50,3 +50,53 @@ It is conceptually a new type of Web programming language, which is intended to 
 When you create an element, you will have to give it a design option.
 (Write more about this later)
 
+
+## Honeycomb Security
+
+One of the biggest and the main feature of this Web concept is Security.
+Today's web systems can be exploited using packet sniffers to examine non-secure connections.
+
+And we made a solution with the HCSec.
+
+#### Prequisites
+
+Let's say that A is the one sending the Data, and B is the one recieving it.
+
+The Data is an integer.
+
+There are three routes, each labled 1, 2, 3.
+
+The 1st route goes through 10 individual users; 2nd route goes through 4; 3rd route goes through 6.
+
+#### Step 1
+
+A will count the length of the routes 1, 2, 3.
+
+It will define Data Prime as:
+(Data ** (length of 3)) * (length of 1) * (length of 2)
+
+#### Step 2
+
+A sends these Data through specific lines.
+
+Route 1: Sends the length of 3
+
+Route 2: Sends the value of Data Prime
+
+Route 3: Sends the length of 1 & 2
+
+#### Step 3
+
+When carrying the value of Data Prime through Route 2, each individual that it passes will subtract 1 from its value.
+ 
+ Therefore, the value of which B gets from Route 2 will be ( Data Prime - (length of Route 2) ).
+ 
+ #### Step 4
+ 
+ Now B has recieved every data it needs.
+ 
+ The value of original Data can be achieved by solving the equation below:
+ 
+ (image of equation)
+ 
+ 
