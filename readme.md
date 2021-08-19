@@ -4,7 +4,7 @@ Welcome to the Honeycomb Web Project GitHub!
 
 The documentation is on its way, and Readme is constantly getting updated.
 
-The project is maintained/developed by stt0421-jsk, Justpumpkin, mmt-1234, and Jiseong Park.
+The project is maintained/developed by stt0421-jsk, Justpumpkin, mmt-1234, and jiduck0814.
 
 For any questions, feel free to contact: gotohell.covid19@gmail.com
 
