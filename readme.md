@@ -58,6 +58,8 @@ Today's web systems can be exploited using packet sniffers to examine non-secure
 
 And we made a solution with the HCSec.
 
+For specific information, check out "Honeycomb Sec.pdf".
+
 #### Prequisites
 
 Let's say that A is the one sending the Data, and B is the one recieving it.
@@ -100,3 +102,8 @@ When carrying the value of Data Prime through Route 2, each individual that it p
  (image of equation)
  
  
+ ### Why is this method Secure?
+ 
+ Well, for example, if someone was to obtain data from the Route 2, they still wouldn't be able to dechiper it.
+ 
+As long as they do not know where the data originated from and which Route it took, they can't get the original Data.
