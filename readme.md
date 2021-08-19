@@ -1,5 +1,14 @@
 # The Honeycomb Web
 
+Welcome to the Honeycomb Web Project GitHub!
+
+The documentation is on its way, and Readme is constantly getting updated.
+
+The project is maintained/developed by stt0421-jsk, Justpumpkin, mmt-1234, and Jiseong Park.
+
+For any questions, feel free to contact: ![alt-text](gotohell.covid19@gmail.com)
+
+
 ## Introduction
 
 The basic concept of the Honeycomb Web is to remake what we call "the Web" from scratch.
@@ -17,6 +26,7 @@ Between these users inside the same Hex, they can search each other's hidden loc
 These hidden local files consist of "HCPF" files(for more information on HCPF files, see HCPF files below) of static webpages.
 
 ![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_model_1.png?raw=true)
+
 Simple model of the Honeycomb Web connection
 
 When a user requests Data, the request is sent to the Class 1, or the 3 closest users. 
