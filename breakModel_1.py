@@ -41,12 +41,42 @@ print("\n")
 dp_k = dp - k + 1
 print("INTRUDER GETS 'DATA PRIME' VALUE AS = ", dp_k)
 
-def default(n1, n2, n3, n4, dp_k):
+default(r1, r2, r3, data)
+
+def log(data):
+    print("LOG: ", data)
+
+def default(n1, n2, n3, data):
     print("INTRUDER KNOWS EVERY DATA EXCEPT FOR THE LOCATION OF 'K'")
     print("\n")
     print("CALCULATING...")
     print("\nCALCULATION LOG")
-    print("LOG: ")
+    
+    log("FETCHING THE MINIMUM POSSIBLE VALUE OF r2")
+    min_r2_data = min(n1, n2, n3)
+    log("SUCCESS, MIN VALUE = ", min_r2_data)
+    
+    log("EXPERIMENTING WITH MINIMUM VALUE ", min_r2_data)
+    min_r2 = 0
+    n_list = [n1, n2, n3]
+    n_list.remove(min_r2_data)
+
+    while (min_r2 < min_r2_data):
+        dp_m = dp_k + min_r2
+        log("r2 = ", min_r2_data)
+        log("r1 = ", n_list[1])
+        log("r3 = ", n_list[0])
+        data_m = (((dp_m + min_r2_data)/min_r2_data*n_list[1])**(1.0/float(n_list[0])))
+        if data_m = data:
+            log("***** MATCH FOUND *****")
+            log("data_m FOUND = ", data_m)
+            break
+        else:
+            log("NO MATCH, MOVING ON")
+            print("\n")
+            min_r2 += 1
+
+
 
 """
 def calc(case):
