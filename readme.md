@@ -62,6 +62,8 @@ For specific information, check out "Honeycomb Sec.pdf".
 
 #### Prequisites
 
+![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_model_2.png?raw=true)
+
 Let's say that A is the one sending the Data, and B is the one recieving it.
 
 The Data is an integer.
@@ -74,8 +76,11 @@ The 1st route goes through 10 individual users; 2nd route goes through 4; 3rd ro
 
 A will count the length of the routes 1, 2, 3.
 
+![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_1.png?raw=true)
+
 It will define Data Prime as:
-(Data ** (length of 3)) * (length of 1) * (length of 2)
+
+![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_2.png?raw=true)
 
 #### Step 2
 
@@ -91,7 +96,9 @@ Route 3: Sends the length of 1 & 2
 
 When carrying the value of Data Prime through Route 2, each individual that it passes will subtract 1 from its value.
  
- Therefore, the value of which B gets from Route 2 will be ( Data Prime - (length of Route 2) ).
+ Therefore, the value of which B gets from Route 2 will be:
+ 
+ ![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_3.png?raw=true)
  
  #### Step 4
  
@@ -99,7 +106,7 @@ When carrying the value of Data Prime through Route 2, each individual that it p
  
  The value of original Data can be achieved by solving the equation below:
  
- (image of equation)
+ ![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_4.png?raw=true)
  
  
  ### Why is this method Secure?
