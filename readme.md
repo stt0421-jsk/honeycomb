@@ -51,7 +51,7 @@ When you create an element, you will have to give it a design option.
 (Write more about this later)
 
 
-## Honeycomb Security
+## Honeycomb Security I
 
 One of the biggest and the main feature of this Web concept is Security.
 Today's web systems can be exploited using packet sniffers to examine non-secure connections.
@@ -96,21 +96,27 @@ Route 3: Sends the length of 1 & 2
 
 When carrying the value of Data Prime through Route 2, each individual that it passes will subtract 1 from its value.
  
- Therefore, the value of which B gets from Route 2 will be:
+Therefore, the value of which B gets from Route 2 will be:
  
- ![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_3.png?raw=true)
+![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_3.png?raw=true)
  
- #### Step 4
+#### Step 4
  
- Now B has recieved every data it needs.
+Now B has recieved every data it needs.
  
- The value of original Data can be achieved by solving the equation below:
+The value of original Data can be achieved by solving the equation below:
  
- ![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_4.png?raw=true)
+![alt text](https://github.com/stt0421-jsk/honeycomb/blob/main/img/Honeycomb_equation_4.png?raw=true)
  
  
- ### Why is this method Secure?
+### Why is this method Secure?
  
- Well, for example, if someone was to obtain data from the Route 2, they still wouldn't be able to dechiper it.
+Well, for example, if someone was to obtain data from the Route 2, they still wouldn't be able to dechiper it.
  
 As long as they do not know where the data originated from and which Route it took, they can't get the original Data.
+
+## Honeycomb Security II
+
+New version available.
+
+Update ASAP.
