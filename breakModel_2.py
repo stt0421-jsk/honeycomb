@@ -42,7 +42,7 @@ def model_two(n1, n2, n3, a, b, c, dp_k, data):
                 data_h = ((dp_int + (r2p ** (2 * r2p))) // (r1p * r2p * r3p)) ** (Decimal(1) / Decimal(r3p))
                 log("RENDERING 'DATA'...")
                 log("## DATA = ", data_h)
-                if math.isclose(data_h, data, abs_tol = 0.002) == True:
+                if math.isclose(data_h, data, abs_tol = 0.1) == True:
                     print("\n")
                     print("*****************************************************")
                     print("*****************************************************")
@@ -58,6 +58,7 @@ def model_two(n1, n2, n3, a, b, c, dp_k, data):
                     print("INTRUDER LOCATION b = ", b_v)
                     print("INTRUDER LOCATION c = ", c_v)
                     print("\n\n\n")
+                    break
                 else:
                     log("\n** NO MATCH, MOVING ON")
                     print("\n")
@@ -83,8 +84,8 @@ print("██╔══██╗██╔══██╗██╔══╝░░�
 print("██████╦╝██║░░██║███████╗██║░░██║██║░╚██╗███████╗██║░░██║")
 print("╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝")
 print("\n\n")
-print("Ver. 0.0.1")
-print("For Honeycomb Security Model 1")
+print("Ver. 0.2.1")
+print("For Honeycomb Security Model 2")
 print("_______________________________________________________________________________")
 print("\n")
 print("\n")
