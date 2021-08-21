@@ -1,8 +1,10 @@
 import math
 from decimal import *
 
+
 def log(data, newData=""):
     print("LOG: ", data + str(newData))
+
 
 def model_two(n1, n2, n3, a, b, c, dp_k, data):
     print("CALCULATING...")
@@ -64,6 +66,7 @@ def model_two(n1, n2, n3, a, b, c, dp_k, data):
             b_v +=1
         b_v = 0
         a_v += 1
+
 
 print("_______________________________________________________________________________")
 print("██╗░░██╗░█████╗░███╗░░██╗███████╗██╗░░░██╗░█████╗░░█████╗░███╗░░░███╗██████╗░")
