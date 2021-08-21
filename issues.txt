@@ -1,0 +1,6 @@
+2021.8.22, 1:33 AM, Sun
+File: breakModel_2.py
+Type: Bug
+
+- Accuracy of RENDERED DATA is decreased when calculating with large numbers
+- math.isclose() absolute tolerance is low -> Program can't detect a match bc of above issue
