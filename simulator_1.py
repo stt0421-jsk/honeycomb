@@ -111,6 +111,6 @@ print("B RECIEVED: ", ab31)
 print("\nCALCULATING FULL DATA")
 full_val = (ab12 + ab23 + ab31) - (br12 + br23 + br31) + 2*(r1 + r2 + r3)
 print("\n\nORIGINAL DATA FROM A IS: ", full_val)
-print("\nTASK COMPLETED")
+print("\n\n\nTASK COMPLETED")
 
 exit()
